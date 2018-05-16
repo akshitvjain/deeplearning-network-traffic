@@ -160,6 +160,11 @@ For this study, network traffic was collected during the national CPTC held at R
 The bar chart shows the most frequent protocols/services and their frequency distribution.
 ![link](https://github.com/akshitvjain/deeplearning-network-traffic/blob/master/frequency_data/frequency_plot.png)
 
+### Data pipeline for Network Traffic Identification
+There are multiple phases through which the payload data needs to pass through before it can be used to train a deep learning model.
+
+![link](https://github.com/akshitvjain/deeplearning-network-traffic/blob/master/images/pipeline.png)
+
 ### Results
 The table below shows the aggregated performance metrics for the different optimizers used to train the CNN model.
 
