@@ -1,6 +1,6 @@
-# deeplearning-network-traffic
-Network Traffic Identification with Convolutional Neural Networks - This project aims to implement a new payload-based method to identify network protocol/service using convolutional neural network.
-
+# deeplearning-network-traffic 
+* Network Traffic Identification with Convolutional Neural Networks - This project aims to implement a new payload-based method to identify network protocol/service using convolutional neural network. 
+* The paper was published by IEEE and was presented at the 4th Intl Conf on Big Data Intelligence and Computing. Access the publication at https://ieeexplore.ieee.org/document/8512009
 ### Network Traffic Dataset
 For this study, network traffic was collected during the national CPTC held at RIT in November, 2017. From the collected traffic, 34,929 TCP flows were extracted. These flows contained 24 unique protocol labels, with a fairly unbalanced distribution. The dataset is curated by extracting payload bytes from TCP flows, and the protocol/service labels associated with the flows are detected using a network deep packet inspection tool (nDPI). The following table displays the first few service labels and their associated payload bytes.
 <div>
